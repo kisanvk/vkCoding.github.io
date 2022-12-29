@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%), url(hd-wallpapers\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-vgjqy-2730x1536.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+ }
+
+p[class=link] {
+    color: #000000;
+}
+
+p[class=liw]{
+    color: #000000;
+    font-size: 17px;
+}
+
+p[class=par]{
+ color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+form{
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.8)50%,rgba(255, 255, 255, 0.8)50%);
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 100px; 
+}
+
+form h2{
+   
+    height: 40px;
+    line-height: 38px;
+    width: 240px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+ 
+}
+
+form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid rgb(24, 24, 24);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 14px;
+    color:rgb(37, 37, 37);
+    font-family: Arial;
+}
+
+.submit{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    border: none;
+    margin-top: 5px;
+    line-height: 20px;
+    left: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.submit:hover{
+    font-weight: 700;
+    background: #ffffff;
+    color: #000000;
+
+    
+}
+
+.submit a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+ span.psw{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: #0066ff;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left:  -127px;
+    font-size: 14px;
+    float: right;
+    padding: 16px;
+    display: block;
+
+ }
+
+ span.psw a{
+   text-decoration: none;
+ }
+
+
+form .link{
+    position: relative;
+    bottom: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+    
+  
+    
+}
+
+form .link a{
+     
+    text-decoration: none;
+    color: #0066ff;
+    
+}
+
+.liw{
+    position: relative;
+    bottom: 80px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    left: 25px;
+    top: 250px;
+    font-weight: 500;
+    
+}
+input[type="radio"]{
+    height: 14px;
+    margin: 14px 0;
+    width: 15%;
+    display: inline;
+    position: relative;
+    top: 4px; 
+    right: 7px;
+    margin-top: 25px;
+  
+    
+}
+   
+ label[for=gender]{
+   font-weight: 500;
+   padding-right: 5px;
+   font-size: 17px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.goback{
+    text-align: center;
+    list-style: none;
+    position: relative;
+    border: none;
+    margin-top: 45px;
+    right: 130px;
+    line-height: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.goback a{
+    font-size: 23px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.goback :hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+ 
+ .icons ion-icon{
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    position: relative;
+    left: 525px;
+    top: 500px;
+
+ }
+ .icons ion-icon:hover{
+    color: #ffffff;
+ }
+ div.icons{
+    position: relative;
+    bottom: 80px;
+ }
+ .form-control{
+   
+    position: relative;
+ }
+   
+
+ .form-control.success input{ /*if input is success */
+    border-color: #2ecc71;
+ }
+
+ .form-control.error input{  /*if input error */
+    border-color: #e74c3c;
+ }
+
+ .form-control i{
+    position: absolute;
+    right: 7px;
+    bottom: 10px;
+    visibility: hidden  /* hide icon */
+ }
+
+ /* success*/
+ .form-control.success i.fa-circle-check{
+ color: #2ecc71;
+ visibility: visible; /* if success then color will green */
+ }
+
+ /* Error*/
+ .form-control.error i.fa-circle-exclamation{
+    color: #e74c3c;
+    visibility: visible; /* if success then color will green */
+    }
+
+    .form-control small { /*  Error msg in red color*/
+      color: #e74c3c;
+      position: absolute;
+      font-size: 14px;
+      letter-spacing: 1px;
+      top: 63px;
+      bottom: 0px;
+      left: 0;
+      visibility: hidden;
+      }
+
+   
+
+    .form-control.error small { /* if error then msg will visible */
+     visibility: visible;
+    } 
+
+
+  
+
+

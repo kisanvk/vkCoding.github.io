@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Login.css">
+
+ </head>
+
+ <body>
+     
+
+    <div class="main">
+    <div class="navbar">
+    <div class="icon">
+    <h2 class="logo">VkCoding</h2>
+    </div>
+
+                 <!--navbar-->
+                 <div id="menu">
+                 <ul>
+                    <li><a href="index.html">HOME</a></li> 
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="#">NOTES</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.HTML">CONTACT</a></li>
+                 </ul>
+                </div>
+                </div>
+
+
+    <div class="wallpaper">
+          <img src="4d892f3cee7939865d9e8c1ad9fb4eff.jpg" class="pro" id="" height="">
+    </div>
+        
+          <!--Profile Setting-->
+          <div class="Hero">
+          <img src="IMG20200101075156.png" class="user-pic" id="pic" height="50px" onclick="toggleMenu()">
+          <div class="sub-menu-wrap" id="subMenu">
+             <div class="sub-menu">
+                 <div class="user-info">
+                     <img src="IMG20200101075156.png" height="100px" id="photo">
+                     <input type="file" id="file">
+                     <label for="file" id="uploadBtn">Choose Photo</label>
+                     <h3>Monu Vk</h3>
+                     <p class="ManageAct"><a href="#">Manage Account</a></p>
+                 </div>
+                 <hr>
+
+                 <a href="#" class="sub-menu-link">
+                     <img src="images/profile.png">
+                     <p>Edit Profile</p>
+                     <span>></span>
+                 </a>
+
+                 <a href="#" class="sub-menu-link">
+                     <img src="images/setting.png">
+                     <p>Setting & Privacy</p>
+                     <span>></span>
+                 </a>
+
+                 <a href="#" class="sub-menu-link">
+                     <img src="images/help.png">
+                     <p>Help & Support</p>
+                     <span>></span>
+                 </a>
+
+                 <a href="#" class="sub-menu-link">
+                     <img src="images/logout.png">
+                     <p>Logout</p>
+                     <span>></span>
+                 </a>
+             </div>
+          </div>
+        </div>
+              
+             <div class="welcome">
+             <h2>Welcome to VkCoding</h2>
+             </div>
+ 
+             <div class="wrapper">
+                <div class="static-txt">I'am a</div>
+                <ul class="dynamic-txts">
+                    <li><span>Learn Java</span></li>
+                    <li><span>Learn Python</span></li>
+                    <li><span>Learn C Programmin</span></li>
+                    <li><span>Learn C++</span></li>
+                </ul>
+            </div>
+               
+             
+         <div class="content">
+
+            <button class="cn"><a href="https://whatsapp.com/dl/" target="_blank">JOIN US</a></button>
+         </div>
+
+
+            <!--All courses 
+      <select id="list" onchange="getSelectValue()">
+        <option value="All Courses">All Courses</option>
+        <option class="op" value="Html5"> HTML5</option>
+        <option value="Css3">CSS3</option>
+        <option value="Javasript">JAVASCRIPT</option>
+        <option value="Java">JAVA</option>
+        <option value="Python">PYTHON</option>
+        <option value="Php">PHP</option>
+        <option value="C#">C#</option>
+        <option value="C++">C++</option>
+        <option value="Rubby">RUBBY</option>
+      </select>
+      -->
+
+        <!--footer-->
+
+           
+      <footer>
+        <div class="container">
+            <div class="footer-cols">
+                <ul>
+                    <li><b>IT Training</b></li>
+                    <li><a href="">Software Developer</a></li>
+                    <li><a href="">Android Developer</a></li>
+                    <li><a href="">IOS Developer</a></li>
+                    <li><a href="">Web Developer</a></li>
+                    <li><a href="">Full Stack Developer</a></li>
+                    
+                </ul>
+
+                <ul>
+                    <li><b>Online Course</b></li>
+                    <li><a href="">Duration</a></li>
+                    <li><a href="">Certificate</a></li>
+                    <li><a href="">Placement</a></li>
+                    <li><a href="">Course Fees</a></li>
+                    <li><a href="">Payment Method</a></li>
+                </ul>
+
+                <ul>
+
+                    <li><b>Community</b></li>
+                    <li><a href="">Learners</a></li>
+                    <li><a href="">Partners</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Blog</a></li>
+                    <a href="">FAQ</a>
+                  
+                </ul>
+
+                <ul>
+                    <li><b>Support</b></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Grievances</a></li>
+                    <li><a href="">Summons/Notices</a></li>
+                    <li><a href="">Community Guidlines</a></li>
+                       
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright &copy; 2022 VK
+        </div>
+    </footer>
+
+    
+    <script>
+
+        let subMenu =document.getElementById('subMenu');
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+ <script src="login.js"></script>
+ 
+</body>
+</html>

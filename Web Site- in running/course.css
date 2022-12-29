@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    padding: 5px;
+    margin: 15px;
+}
+div {
+    width: 60px;
+    height: 170px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background: whitesmoke;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    background: black;
+    color: aliceblue;
+}

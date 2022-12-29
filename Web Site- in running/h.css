@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: relative;
+    top: 20px;
+    width: 450px;
+}

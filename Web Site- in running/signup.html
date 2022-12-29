@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signp.css">
+         </head>
+         <body>
+          <div class="container">
+         <form class="form" action="" method="post" name="form" id="form">
+         <h2>Sign Up Here</h2>
+
+         <div class="form-control">
+            <label for="Name"></label>
+            <input type="text" name="name" id="Name" placeholder="Enter Your Name" autocomplete="off">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>error msg</small>
+           </div>
+         
+         <!--Email-->
+         <div class="form-control">
+         <label for="email"></label>
+         <input type="email" name="email" id="email" placeholder="Enter Your Email " autocomplete="off">
+         <i class="fa-solid fa-circle-check"></i>
+         <i class="fa-solid fa-circle-exclamation"></i>
+         <small>error msg</small>
+         </div>
+         
+         <!--password-->
+         <div class="form-control">
+         <label for="password"></label>
+         <input type="password" name="password" id="password" placeholder="Enter Your password" autocomplete="off">
+         <span><i class="fa-solid fa-eye"></i></span>
+         <i class="fa-solid fa-circle-check"></i>
+         <i class="fa-solid fa-circle-exclamation"></i>
+         <small>error msg</small>
+
+        
+         <!--Phone Number-->
+         <div class="form-control">
+            <label for="phone"></label>
+            <input type="number" name="phone" id="phone" placeholder="Enter Your Phone No" autocomplete="off">
+            <span><i class="fa-solid fa-eye"></i></span>
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>error msg</small>
+            </div>
+
+            <!--Gender-->
+           <div class="form-control">
+            <label for="gender"></label>
+            Male<input type="radio" name="gender" id="male">
+            Female<input type="radio" name="gender" id="female">
+            Other<input type="radio" name="gender" id="other">
+            <span><i class="fa-solid fa-eye"></i></span>
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>error msg</small>
+
+            </div>
+            
+         <span class="psw"><a href="#">Try another way</a></span>
+                  <!--Submit Button-->
+         <input class="submit" type="submit" value="Sign Up">
+
+          <!--Back Button-->
+         <div class="goback">
+            </i><a href="index.html"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+          </div>
+          
+          <!--social Media -->
+         <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+         </div>
+         </form>
+         </div>
+
+                    <!--Connect Javascript-->
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+         <script src="signup.js"></script>
+  
+        </body>
+</html>

@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%), url(hd-wallpapers\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-vgjqy-2730x1536.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.navbar{
+    background-color: #ffffff;
+    width: 1550px;
+    height: 70px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.logo{
+    
+    left: 50px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 45px;
+    margin-top: 9px;
+    padding-right: 11px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.menu{
+
+    margin-right: 60px;
+    width: 400px;
+    float: left;
+    height: 70px; 
+}
+
+ul.nav{
+   
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.nav li.l{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+
+}
+
+ul.nav li.l a{
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    background-color: #000000;
+    border-radius: 10%;
+    width: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 11px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  
+}
+
+ul.nav li.l a:hover{
+    width: 50px;
+    color: rgb(255, 0, 0); 
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 505px ;
+    font-weight: bold;
+    margin-bottom: 12px;  
+}
+
+.srch{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    height: 18px;
+    background: transparent;
+    margin-top: 18px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    border-color: rgb(68, 68, 68);
+    font-size: 15px;
+    float: left;
+    padding: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;  
+}
+
+.btn{
+    letter-spacing: 1px;
+    border: none;
+    width: 100px;
+    height: 36px;
+    background: rgb(0, 0, 0);
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+    .btn:hover{
+    background: rgb(255, 0, 0);  
+}
+
+.btn:focus{
+    outline: none; 
+}
+
+.srch:focus{
+    outline: none; 
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #ff0000;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.main  h2{
+    animation: glow 2s ease-in-out infinite;
+}
+
+.logo h2{
+    animation: glow 2s ease-in-out infinite;
+}
+
+
+   
+    
+    
+        
+
